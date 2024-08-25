@@ -1,0 +1,14 @@
+syntax = 'proto3';
+
+service Core {
+  rpc GetBalance(GetBalanceRequest) returns (GetBalanceResponse);
+}
+
+message GetBalanceRequest {
+  string systemId = 1;
+  string memberId = 2;
+}
+
+message GetBalanceResponse {
+  int64 balance = 1;
+}
