@@ -2,7 +2,6 @@
   "name": "civi",
   "version": "1.0.0",
   "description": "Shared things",
-  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
