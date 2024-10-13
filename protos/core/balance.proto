@@ -10,5 +10,5 @@ message GetBalanceRequest {
 }
 
 message GetBalanceResponse {
-  int64 balance = 1;
+  string balance = 1;
 }
