@@ -1,6 +1,6 @@
 syntax = 'proto3';
 
-service Balance {
+service Core {
   rpc GetBalance(GetBalanceRequest) returns (GetBalanceResponse);
 }
 
